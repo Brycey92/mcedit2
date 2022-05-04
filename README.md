@@ -14,6 +14,8 @@ The rest of this file is of interest to programmers only.
 
 # Getting Started
 
+<details>
+<summary>Windows</summary>
 This guide is written with Windows developers in mind. Linux / OS X developers can read how to install below. 
 Windows developers are assumed to be using a unix shell such as the _GIT Bash_ included with the Windows distribution 
 of Git.
@@ -82,6 +84,8 @@ All that's left is to see if the app launches.
 As a bonus, you can use the `-debug` flag to enable the Debug menu and a few extra widgets.
 
 `mcedit2 -debug`
+
+</details>
 
 ## Linux/OS X (not tested fully)
 
