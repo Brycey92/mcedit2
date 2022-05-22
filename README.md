@@ -8,15 +8,23 @@ a Minecraft world, and to import and export .schematic files created by many pro
 original MCEdit 1.x. It is free to use and licensed under the BSD license.
 
 MCEdit 2.0's development is in the alpha stage. Many features may be buggy or missing. To download MCEdit 2.0 anyway, head over to
-http://www.mcedit.net/
+https://www.mcedit.net/
 
 The rest of this file is of interest to programmers only.
 
-# Getting Started
+## Getting Started
 
-This guide is written with Windows developers in mind. Linux / OS X developers can read how to install below. 
-Windows developers are assumed to be using a unix shell such as the _GIT Bash_ included with the Windows distribution 
+This guide is written with Windows developers in mind. Linux / OS X developers can read how to install below.
+
+Windows developers are assumed to be using a unix shell such as the _GIT Bash_ included with the Windows distribution
 of Git.
+
+### Windows Setup
+
+<details>
+
+
+
 
 - Install [Python for Windows v2.7.9](http://www.python.org/downloads/). Edit your PATH environment variable (or your 
 .bashrc) to have both the `python27` and `python27\scripts` folders. (by default, `c:\python27;c:\python27\scripts;`)
@@ -83,7 +91,12 @@ As a bonus, you can use the `-debug` flag to enable the Debug menu and a few ext
 
 `mcedit2 -debug`
 
-## Linux/OS X (not tested fully)
+</details>
+
+### Linux/OS X (not tested fully)
+
+<details>
+
 
     cd (Your mcedit2 location)
     virtualenv ENV
@@ -108,7 +121,9 @@ Example: `brew install qt` etc. or:
 
 _Note: This information is not fully tested and might not work for you_
 
-# Troubleshooting
+</details>
+
+## Troubleshooting
 
 - `python setup.py develop` or `build` produces the error `cannot find vcvarsall.bat` or similar.
 Old version of setuptools don't know about MSVC++ for Python 2.7. Run `pip install --upgrade setuptools` to upgrade.
